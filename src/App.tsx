@@ -76,6 +76,7 @@ function App() {
         />
         <OnOff onChange={setOn}/>{on.toString()}
         <OnOff onChange={setOn}/>{on.toString()}
+        <OnOff onChange={setOn}/>{on.toString()}
         <OnOffNew on={on} setOn={()=>setOn(!on)}/>
         <AccordionOuter title="List"/>
         <AccordionOuter title="List of people"/>
